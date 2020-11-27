@@ -93,6 +93,10 @@ nav .border {
   cursor: pointer;
 }
 
+.container {
+  padding: 30px 40px 0 40px;
+}
+
 .upper-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,7 +111,6 @@ nav .border {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 30px 40px 0 40px;
   text-align: center;
 }
 
@@ -125,12 +128,205 @@ nav .border {
   line-height: 1.1;
 }
 
-.upper-content .btn {
+.btn {
   background-color: #2c304b;
   padding: 10px 30px;
   color: white;
   border: none;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+.middle-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle-content img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  padding-top: 30px;
+}
+
+.middle-content h3 {
+  color: #2c304b;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 1;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.middle-content p {
+  padding-bottom: 20px;
+  color: #2c304bbe;
+  line-height: 1.1;
+}
+
+.middle-content button {
+  margin-top: 60px;
+}
+
+.middle-image-container {
+  padding-top: 50px;
+  position: relative;
+}
+
+.middle-image-container img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.middle-inner-content {
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 100px;
+}
+
+.middle-inner-content h2 {
+  margin-bottom: 10px;
+}
+
+.middle-inner-content a {
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.199);
+}
+
+.middle-inner-content a:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+.sos-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 40px;
+}
+
+.sos-container img {
+  margin-top: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sos-container p {
+  padding-top: 20px;
+}
+
+.sos-container button {
+  margin-top: 20px;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #3a3a3a;
+  margin-top: 26px;
+  padding: 20px 0;
+}
+
+.footer-container img {
+  width: 70px;
+  padding: 20px 0;
+}
+
+.footer-container h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.footer-container p {
+  color: white;
+  line-height: 0.1;
+}
+
+.social svg:not(first-child) {
+  margin-left: 10px;
+}
+
+.inner-image-content {
+  position: absolute;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 100px;
+}
+
+.inner-image-content h1 {
+  color: white;
+  font-weight: bolder;
+}
+
+.inner-image-content a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.938);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.slider-item {
+  width: 100vw;
 }
 /*# sourceMappingURL=style.css.map */
